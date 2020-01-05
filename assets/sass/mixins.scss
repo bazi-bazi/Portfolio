@@ -1,8 +1,32 @@
 
 //font
 
-@mixin fontlight {
+@mixin fontlight{
   font-family: 'Montserrat Light';
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin fontregular{
+  font-family: 'Montserrat Regular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin fontmedium{
+  font-family: 'Montserrat Medium';
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin fontsemibold{
+  font-family: 'Montserrat Semibold';
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin fontbold{
+  font-family: 'Montserrat Bold';
   font-weight: normal;
   font-style: normal;
 }
