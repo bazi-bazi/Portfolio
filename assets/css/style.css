@@ -57,3 +57,36 @@ h4,
 p {
   margin: 0;
   padding: 0; }
+
+.header {
+  background-image: url("../../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 85vh; }
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 40px; }
+
+.logo {
+  margin-right: auto; }
+
+.menu-items {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none; }
+  .menu-items li {
+    margin-left: 35px; }
+  .menu-items .menu-items__list {
+    text-decoration: none;
+    font-family: 'Montserrat Semibold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #412727; }

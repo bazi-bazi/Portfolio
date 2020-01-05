@@ -34,3 +34,37 @@ p{
   margin: 0;
   padding: 0;
 }
+
+/// header
+
+.header{
+  background-image: url("../../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 85vh;
+}
+
+.menu{
+  display: flex;
+  padding-top: 40px;
+
+}
+
+.logo{
+  margin-right: auto;
+}
+
+.menu-items{
+  margin-left: auto;
+  display: flex;
+  list-style: none;
+
+  li{
+  margin-left: 35px;
+  }
+  .menu-items__list{
+    text-decoration: none;
+    @include menufont;
+  }
+}
