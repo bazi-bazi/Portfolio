@@ -66,5 +66,9 @@ p{
   .menu-items__list{
     text-decoration: none;
     @include menufont;
+
+    &:hover{
+      color: #39b4af;
+    }
   }
 }

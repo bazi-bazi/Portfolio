@@ -90,3 +90,5 @@ p {
     font-size: 1rem;
     text-transform: uppercase;
     color: #412727; }
+    .menu-items .menu-items__list:hover {
+      color: #39b4af; }
