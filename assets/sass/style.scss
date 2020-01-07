@@ -4,6 +4,7 @@
 // Variables
 $textcolor: #1d1d1d;
 $textcolorlight: #787878;
+$basiccolor: #10c9c3;
 
 // Basic styles
 
@@ -71,5 +72,31 @@ p{
     &:hover{
       color: #39b4af;
     }
+  }
+}
+
+// header text
+
+.header-text{
+  margin-left: 60%;
+  margin-top: 183px;
+
+  .header-text__big{
+    font-size: 2.25rem;
+    text-align: left;
+    letter-spacing: 3px;
+    color: $textcolor;
+    @include fontsemibold;
+  }
+  .header-text__small{
+    font-size: 1.125rem;
+    text-align: left;
+    color: $textcolorlight;
+    @include fontlight;
+  }
+  .header-button{
+    text-align: left;
+    margin-top: 40px;
+    @include headerbutton;
   }
 }

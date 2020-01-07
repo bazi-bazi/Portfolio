@@ -3,38 +3,51 @@
 
 @mixin fontlight{
   font-family: 'Montserrat Light';
-  font-weight: normal;
+  font-weight: Light;
   font-style: normal;
 }
 
 @mixin fontregular{
   font-family: 'Montserrat Regular';
-  font-weight: normal;
+  font-weight: regular;
   font-style: normal;
 }
 
 @mixin fontmedium{
   font-family: 'Montserrat Medium';
-  font-weight: normal;
+  font-weight: medium;
   font-style: normal;
 }
 
 @mixin fontsemibold{
   font-family: 'Montserrat Semibold';
-  font-weight: normal;
+  font-weight: semibold;
   font-style: normal;
 }
 
 @mixin fontbold{
   font-family: 'Montserrat Bold';
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
 }
 
 
 @mixin menufont{
-  @include fontsemibold;
+  @include fontregular;
   font-size: 1rem;
   text-transform: uppercase;
-  color: #412727;
+  color: #191919;
+}
+
+
+// buttons
+
+@mixin headerbutton{
+  background-color: $basiccolor;
+  @include fontlight;
+  border: none;
+  padding: 23px 46px;
+  font-size: 0.75rem;
+  color: #fff;
+  text-transform: uppercase;
 }

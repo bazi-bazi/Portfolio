@@ -84,11 +84,42 @@ p {
     margin-left: 35px; }
   .menu-items .menu-items__list {
     text-decoration: none;
-    font-family: 'Montserrat Semibold';
-    font-weight: normal;
+    font-family: 'Montserrat Regular';
+    font-weight: regular;
     font-style: normal;
     font-size: 1rem;
     text-transform: uppercase;
-    color: #412727; }
+    color: #191919; }
     .menu-items .menu-items__list:hover {
       color: #39b4af; }
+
+.header-text {
+  margin-left: 60%;
+  margin-top: 183px; }
+  .header-text .header-text__big {
+    font-size: 2.25rem;
+    text-align: left;
+    letter-spacing: 3px;
+    color: #1d1d1d;
+    font-family: 'Montserrat Semibold';
+    font-weight: semibold;
+    font-style: normal; }
+  .header-text .header-text__small {
+    font-size: 1.125rem;
+    text-align: left;
+    color: #787878;
+    font-family: 'Montserrat Light';
+    font-weight: Light;
+    font-style: normal; }
+  .header-text .header-button {
+    text-align: left;
+    margin-top: 40px;
+    background-color: #10c9c3;
+    font-family: 'Montserrat Light';
+    font-weight: Light;
+    font-style: normal;
+    border: none;
+    padding: 23px 46px;
+    font-size: 0.75rem;
+    color: #fff;
+    text-transform: uppercase; }
