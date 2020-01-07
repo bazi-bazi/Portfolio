@@ -44,7 +44,7 @@
 
 @mixin headerbutton{
   background-color: $basiccolor;
-  @include fontlight;
+  @include fontmedium;
   border: none;
   padding: 23px 46px;
   font-size: 0.75rem;

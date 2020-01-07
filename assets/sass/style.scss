@@ -98,5 +98,15 @@ p{
     text-align: left;
     margin-top: 40px;
     @include headerbutton;
+
+    &:hover{
+      background-color: #22ded8;
+    }
   }
+}
+// Media quaries
+
+@media (max-width: 767px){
+
+
 }
