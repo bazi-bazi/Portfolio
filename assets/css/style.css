@@ -89,9 +89,32 @@ p {
     font-style: normal;
     font-size: 1rem;
     text-transform: uppercase;
-    color: #191919; }
+    color: #191919;
+    display: inline-block;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color; }
+    .menu-items .menu-items__list::before {
+      content: '';
+      width: 8px;
+      height: 2px;
+      background-color: #10c9c3;
+      display: block;
+      margin-bottom: 2px;
+      opacity: 0;
+      -webkit-transition-duration: 500ms;
+      -o-transition-duration: 500ms;
+      transition-duration: 500ms;
+      -webkit-transition-property: opacity;
+      -o-transition-property: opacity;
+      transition-property: opacity; }
     .menu-items .menu-items__list:hover {
-      color: #39b4af; }
+      color: #10c9c3; }
+      .menu-items .menu-items__list:hover::before {
+        opacity: 1; }
 
 .header-text {
   margin-left: 60%;
@@ -122,7 +145,13 @@ p {
     padding: 23px 46px;
     font-size: 0.75rem;
     color: #fff;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: background-color;
+    -o-transition-property: background-color;
+    transition-property: background-color; }
     .header-text .header-button:hover {
       background-color: #22ded8; }
 

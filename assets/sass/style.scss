@@ -65,12 +65,32 @@ p{
   li{
   margin-left: 35px;
   }
+
   .menu-items__list{
     text-decoration: none;
     @include menufont;
+    display: inline-block;
+    transition-duration: 500ms;
+    transition-property: color;
+
+    &::before{
+      content: '';
+      width: 8px;
+      height: 2px;
+      background-color: $basiccolor;
+      display: block;
+      margin-bottom: 2px;
+      opacity: 0;
+      transition-duration: 500ms;
+      transition-property: opacity;
+    }
 
     &:hover{
-      color: #39b4af;
+      color: $basiccolor;
+
+      &::before{
+        opacity: 1;
+      }
     }
   }
 }
@@ -98,6 +118,8 @@ p{
     text-align: left;
     margin-top: 40px;
     @include headerbutton;
+    transition-duration: 500ms;
+    transition-property: background-color;
 
     &:hover{
       background-color: #22ded8;
