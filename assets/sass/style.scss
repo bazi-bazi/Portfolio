@@ -107,6 +107,22 @@ p{
 // Media quaries
 
 @media (max-width: 767px){
+.menu{
+  display: block;
+  text-align: center;
+}
+.logo{
+  margin-right: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.menu-items{
+  margin-left: 0;
+  display: block;
 
-
+  li{
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+}
 }
