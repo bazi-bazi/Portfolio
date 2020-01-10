@@ -153,3 +153,18 @@ p{
   margin-top: 83px;
 }
 }
+
+
+// slogan
+
+.slogan{
+  text-align: center;
+  margin-top: 100px;
+
+  .slogan__maintext{
+    @include fontsemibold;
+    font-size: 1.875rem;
+    color: $textcolor;
+    margin-bottom: 40px;
+  }
+}
