@@ -172,7 +172,18 @@ p{
   .slogan__secondarytext{
     color: $textcolorlight;
     @include fontlight;
+    line-height: 1.5rem;
     font-size: 1rem;
     margin-bottom: 40px;
   }
+
+  .slogan__img{
+    margin-bottom: 90px;
+  }
+}
+
+// skills
+
+.skills{
+  background-image: url();
 }
