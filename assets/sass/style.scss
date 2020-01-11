@@ -206,12 +206,27 @@ p{
   width: 500px;
   height: 3px;
   background-color: #d8d8d8;
-  margin-bottom: 200px;
+  margin-top: 20px;
+
 }
 .skills__container__ux{
   content: '';
   width: 75%;
   height: 3px;
   background-color: $basiccolor;
-  margin-bottom: 20px;
+
+}
+.skills__container__web{
+  content: '';
+  width: 90%;
+  height: 3px;
+  background-color: $basiccolor;
+
+}
+.skills__container__marketing{
+  content: '';
+  width: 65%;
+  height: 3px;
+  background-color: $basiccolor;
+  margin-bottom: 160px;
 }
