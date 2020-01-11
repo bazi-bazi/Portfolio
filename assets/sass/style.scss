@@ -119,6 +119,10 @@ p{
     text-align: left;
     margin-top: 40px;
     @include headerbutton;
+    cursor: pointer;
+    display: block;
+    appearance: none;
+    box-shadow: none;
     transition-duration: 500ms;
     transition-property: background-color;
 

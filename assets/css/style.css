@@ -147,6 +147,13 @@ p {
     font-size: 0.75rem;
     color: #fff;
     text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
