@@ -187,3 +187,31 @@ p{
 .skills{
   background-image: url();
 }
+
+.skills__title{
+  margin-top:160px;
+  @include fontsemibold;
+  font-size: 1.875rem;
+  color: $textcolor;
+}
+
+.skills__text{
+  @include fontsemibold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+.skills__container{
+  content: '';
+  width: 500px;
+  height: 3px;
+  background-color: #d8d8d8;
+  margin-bottom: 200px;
+}
+.skills__container__ux{
+  content: '';
+  width: 75%;
+  height: 3px;
+  background-color: $basiccolor;
+  margin-bottom: 20px;
+}
