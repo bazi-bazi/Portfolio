@@ -16,6 +16,10 @@ $basiccolor: #10c9c3;
 
 body{
   font-size: 16px;
+  overflow-x: hidden;
+}
+html{
+  overflow-x: hidden;
 }
 
 .container-auter{
@@ -135,21 +139,26 @@ p{
 
 @media (max-width: 767px){
 .menu{
-  display: block;
+  flex-wrap: wrap;
   text-align: center;
 }
 .logo{
   margin-right: 0;
-  text-align: center;
   margin-bottom: 10px;
 }
 .menu-items{
   margin-left: 0;
-  display: block;
+  margin-right: 0;
+  flex-wrap: wrap;
 
   li{
-    margin-left: 0;
+    margin-left: 15px;
+    margin-right: 0;
     margin-bottom: 5px;
+
+    :last-child{
+      margin-left:0;
+    }
   }
 }
 .header-text{
@@ -207,7 +216,7 @@ p{
 }
 .skills__container{
   content: '';
-  width: 500px;
+  max-width: 500px;
   height: 3px;
   background-color: #d8d8d8;
   margin-top: 20px;
