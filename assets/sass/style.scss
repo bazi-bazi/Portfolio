@@ -246,3 +246,16 @@ p{
   background-color: $basiccolor;
   margin-bottom: 160px;
 }
+
+@media (max-width: 767px){
+  .skills{
+    background: none;
+  }
+
+}
+
+// achivements
+
+.achivements{
+  background-color: red;
+}
