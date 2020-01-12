@@ -198,11 +198,14 @@ p{
 // skills
 
 .skills{
-  background-image: url();
+
+  background: url("../../images/skills_bg.jpg") top right no-repeat;
+  background-color: #f8f9f9;
+  min-height: 570px;
 }
 
 .skills__title{
-  margin-top:160px;
+  padding-top: 160px;
   @include fontsemibold;
   font-size: 1.875rem;
   color: $textcolor;
