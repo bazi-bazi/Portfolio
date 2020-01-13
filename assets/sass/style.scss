@@ -5,6 +5,7 @@
 $textcolor: #1d1d1d;
 $textcolorlight: #787878;
 $basiccolor: #10c9c3;
+$textcolorwhite: #ffffff;
 
 // Basic styles
 
@@ -283,4 +284,17 @@ p{
 }
 .achivements__title{
   display: inline-block;
+}
+.achivement__text{
+  @include fontlight;
+  color: $textcolorwhite;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  letter-spacing: 1px;
+
+
+  span{
+    font-size: 0.75rem;
+  }
 }

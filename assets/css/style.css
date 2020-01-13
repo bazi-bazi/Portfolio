@@ -288,3 +288,15 @@ p {
 
 .achivements__title {
   display: inline-block; }
+
+.achivement__text {
+  font-family: 'Montserrat Light';
+  font-weight: Light;
+  font-style: normal;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  letter-spacing: 1px; }
+  .achivement__text span {
+    font-size: 0.75rem; }
