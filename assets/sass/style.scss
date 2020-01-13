@@ -268,3 +268,19 @@ p{
   padding-bottom: 100px;
   display: flex;
 }
+
+.achivements__content{
+  min-width: 235px;
+  margin-right: 70px;
+
+  :last-child{
+    margin-right: 0;
+  }
+}
+.achivements__icon{
+  display: inline-block;
+  margin-right: 27px;
+}
+.achivements__title{
+  display: inline-block;
+}

@@ -275,3 +275,16 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+
+.achivements__content {
+  min-width: 235px;
+  margin-right: 70px; }
+  .achivements__content :last-child {
+    margin-right: 0; }
+
+.achivements__icon {
+  display: inline-block;
+  margin-right: 27px; }
+
+.achivements__title {
+  display: inline-block; }
