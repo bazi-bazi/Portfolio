@@ -40,8 +40,11 @@
   box-sizing: border-box; }
 
 body {
+  font-family: 'Montserrat', 'arial', sans-serif;
   font-size: 16px;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word; }
 
 html {
   overflow-x: hidden; }
@@ -264,4 +267,11 @@ p {
     background: none; } }
 
 .achivements {
-  background-color: red; }
+  background-color: #10c9c3; }
+
+.achivements__flex {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }

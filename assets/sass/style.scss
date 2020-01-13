@@ -15,8 +15,11 @@ $basiccolor: #10c9c3;
 }
 
 body{
+  font-family: 'Montserrat', 'arial', sans-serif;
   font-size: 16px;
   overflow-x: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 html{
   overflow-x: hidden;
@@ -257,5 +260,11 @@ p{
 // achivements
 
 .achivements{
-  background-color: red;
+  background-color: $basiccolor;
+}
+
+.achivements__flex{
+  padding-top:100px;
+  padding-bottom: 100px;
+  display: flex;
 }
