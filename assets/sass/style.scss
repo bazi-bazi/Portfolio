@@ -298,8 +298,27 @@ p{
     font-size: 0.75rem;
   }
 }
+@media (max-width: 767px){
+  .achivements__flex{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .achivements__content{
+    margin-bottom: 30px;
+    margin-right: 0px;
+
+  }
+}
+
+
 @media (max-width: 1292px){
   .achivements__flex{
+    padding-top: 50px;
+    padding-bottom: 20px;
     flex-wrap: wrap;
   }
   .achivements__content{
