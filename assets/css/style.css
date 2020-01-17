@@ -326,3 +326,16 @@ p {
   .achivements__content {
     margin-bottom: 30px;
     margin-right: 10px; } }
+
+.works {
+  background-color: #838383; }
+
+.works__title-hidden {
+  visibility: hidden; }
+
+.works__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(341px, auto))[8];
+  grid-template-columns: repeat(8, minmax(341px, auto));
+  grid-auto-flow: minmax(300px, auto); }

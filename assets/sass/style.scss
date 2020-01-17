@@ -326,3 +326,18 @@ p{
     margin-right: 10px;
   }
 }
+
+// my works
+.works{
+  background-color: #838383;
+}
+
+.works__title-hidden{
+  visibility: hidden;
+}
+
+.works__list{
+  display: grid;
+  grid-template-columns: repeat(8, minmax(341px, auto));
+  grid-auto-flow: minmax(300px, auto);
+}
