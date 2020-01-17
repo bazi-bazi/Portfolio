@@ -338,6 +338,7 @@ p{
 
 .works__list{
   display: grid;
-  grid-template-columns: repeat(8, minmax(341px, auto));
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-auto-flow: minmax(300px, auto);
 }

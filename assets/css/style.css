@@ -336,6 +336,8 @@ p {
 .works__list {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(341px, auto))[8];
-  grid-template-columns: repeat(8, minmax(341px, auto));
+  -ms-grid-columns: (1fr)[4];
+  grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[2];
+  grid-template-rows: repeat(2, 1fr);
   grid-auto-flow: minmax(300px, auto); }
