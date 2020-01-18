@@ -337,11 +337,11 @@ p {
   display: -ms-grid;
   display: grid;
   list-style: none;
-  -ms-grid-columns: (1fr)[4];
-  grid-template-columns: repeat(4, 1fr);
-  -ms-grid-rows: (1fr)[2];
-  grid-template-rows: repeat(2, 1fr);
-  grid-auto-flow: minmax(300px, auto); }
+  -ms-grid-columns: minmax(340px, auto) minmax(340px, auto) minmax(340px, auto) minmax(340px, auto);
+  grid-template-columns: minmax(340px, auto) minmax(340px, auto) minmax(340px, auto) minmax(340px, auto);
+  -ms-grid-rows: minmax(300px, auto) minmax(300px, auto);
+  grid-template-rows: minmax(300px, auto) minmax(300px, auto);
+  grid-template-areas: ". . . ." ". . . ."; }
 
 .works__element {
   position: relative; }
@@ -364,3 +364,27 @@ p {
   .works__element:hover::before {
     z-index: 1;
     opacity: 1; }
+  .works__element:nth-child(1) {
+    background: url("../../images/works/water.jpg") center no-repeat;
+    background-size: cover; }
+  .works__element:nth-child(2) {
+    background: url("../../images/works/water.jpg") center no-repeat;
+    background-size: cover; }
+  .works__element:nth-child(3) {
+    background: url("../../images/works/water.jpg") center no-repeat;
+    background-size: cover; }
+  .works__element:nth-child(4) {
+    background: url("../../images/works/water.jpg") center no-repeat;
+    background-size: cover; }
+  .works__element:nth-child(5) {
+    background: url("../../images/works/water.jpg") center no-repeat;
+    background-size: cover; }
+  .works__element:nth-child(6) {
+    background: url("../../images/works/water.jpg") center no-repeat;
+    background-size: cover; }
+  .works__element:nth-child(7) {
+    background: url("../../images/works/water.jpg") center no-repeat;
+    background-size: cover; }
+  .works__element:nth-child(8) {
+    background: url("../../images/works/water.jpg") center no-repeat;
+    background-size: cover; }
