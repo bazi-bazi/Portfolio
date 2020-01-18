@@ -345,6 +345,21 @@ p {
 
 .works__element {
   position: relative; }
+  .works__element .elements__look {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    opacity: 0;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity; }
   .works__element::before {
     background-color: rgba(37, 37, 37, 0.85);
     position: absolute;
@@ -363,6 +378,8 @@ p {
     transition-property: opacity; }
   .works__element:hover::before {
     z-index: 1;
+    opacity: 1; }
+  .works__element:hover .elements__look {
     opacity: 1; }
   .works__element:nth-child(1) {
     background: url("../../images/works/water.jpg") center no-repeat;
