@@ -339,9 +339,9 @@ p {
   display: -ms-grid;
   display: grid;
   list-style: none;
-  -ms-grid-columns: (minmax(340px, auto))[4];
-  grid-template-columns: repeat(4, minmax(340px, auto));
-  grid-auto-rows: minmax(300px, auto); }
+  -ms-grid-columns: (1fr)[4];
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(300px, 1fr); }
 
 .works__element {
   position: relative; }
