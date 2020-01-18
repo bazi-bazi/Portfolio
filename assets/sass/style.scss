@@ -338,7 +338,33 @@ p{
 
 .works__list{
   display: grid;
+  list-style: none;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-auto-flow: minmax(300px, auto);
+}
+
+.works__element{
+  position: relative;
+
+  &::before{
+    background-color: rgba(#252525, 0.85);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0;
+    content: '';
+    transition-duration: 500ms;
+    transition-property: opacity;
+  }
+
+  &:hover{
+    &::before{
+      z-index: 1;
+      opacity: 1;
+    }
+  }
 }

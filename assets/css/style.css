@@ -336,8 +336,31 @@ p {
 .works__list {
   display: -ms-grid;
   display: grid;
+  list-style: none;
   -ms-grid-columns: (1fr)[4];
   grid-template-columns: repeat(4, 1fr);
   -ms-grid-rows: (1fr)[2];
   grid-template-rows: repeat(2, 1fr);
   grid-auto-flow: minmax(300px, auto); }
+
+.works__element {
+  position: relative; }
+  .works__element::before {
+    background-color: rgba(37, 37, 37, 0.85);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0;
+    content: '';
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity; }
+  .works__element:hover::before {
+    z-index: 1;
+    opacity: 1; }
