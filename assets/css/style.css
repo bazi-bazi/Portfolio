@@ -328,20 +328,20 @@ p {
     margin-right: 10px; } }
 
 .works {
-  background-color: #838383; }
+  background-color: #838383;
+  margin: 0;
+  padding: 0; }
 
 .works__title-hidden {
-  visibility: hidden; }
+  display: none; }
 
 .works__list {
   display: -ms-grid;
   display: grid;
   list-style: none;
-  -ms-grid-columns: minmax(340px, auto) minmax(340px, auto) minmax(340px, auto) minmax(340px, auto);
-  grid-template-columns: minmax(340px, auto) minmax(340px, auto) minmax(340px, auto) minmax(340px, auto);
-  -ms-grid-rows: minmax(300px, auto) minmax(300px, auto);
-  grid-template-rows: minmax(300px, auto) minmax(300px, auto);
-  grid-template-areas: ". . . ." ". . . ."; }
+  -ms-grid-columns: (minmax(340px, auto))[4];
+  grid-template-columns: repeat(4, minmax(340px, auto));
+  grid-auto-rows: minmax(300px, auto); }
 
 .works__element {
   position: relative; }
@@ -385,23 +385,23 @@ p {
     background: url("../../images/works/water.jpg") center no-repeat;
     background-size: cover; }
   .works__element:nth-child(2) {
-    background: url("../../images/works/water.jpg") center no-repeat;
+    background: url("../../images/works/slide.jpg") center no-repeat;
     background-size: cover; }
   .works__element:nth-child(3) {
-    background: url("../../images/works/water.jpg") center no-repeat;
+    background: url("../../images/works/rose.jpg") center no-repeat;
     background-size: cover; }
   .works__element:nth-child(4) {
-    background: url("../../images/works/water.jpg") center no-repeat;
+    background: url("../../images/works/face.jpg") center no-repeat;
     background-size: cover; }
   .works__element:nth-child(5) {
-    background: url("../../images/works/water.jpg") center no-repeat;
+    background: url("../../images/works/grafity.jpg") center no-repeat;
     background-size: cover; }
   .works__element:nth-child(6) {
-    background: url("../../images/works/water.jpg") center no-repeat;
+    background: url("../../images/works/monument.jpg") center no-repeat;
     background-size: cover; }
   .works__element:nth-child(7) {
-    background: url("../../images/works/water.jpg") center no-repeat;
+    background: url("../../images/works/chair.jpg") center no-repeat;
     background-size: cover; }
   .works__element:nth-child(8) {
-    background: url("../../images/works/water.jpg") center no-repeat;
+    background: url("../../images/works/bibli.jpg") center no-repeat;
     background-size: cover; }
