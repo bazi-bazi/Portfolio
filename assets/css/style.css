@@ -410,3 +410,31 @@ p {
   .works__list {
     -ms-grid-columns: (1fr)[1];
     grid-template-columns: repeat(1, 1fr); } }
+
+.process {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+.process__content {
+  margin: auto;
+  width: 50%; }
+
+.process__title {
+  text-align: center;
+  font-family: 'Montserrat Semibold';
+  font-weight: semibold;
+  font-style: normal;
+  font-size: 1.875rem;
+  color: #1d1d1d;
+  text-transform: capitalize; }
+
+.process__text {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.35rem;
+  color: #787878;
+  font-family: 'Montserrat Light';
+  font-weight: Light;
+  font-style: normal;
+  margin-top: 40px;
+  margin-bottom: 40px; }
