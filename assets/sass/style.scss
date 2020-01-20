@@ -422,3 +422,9 @@ p{
     background-size: cover;
   }
 }
+
+@media (max-width: 767px) {
+  .works__list{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

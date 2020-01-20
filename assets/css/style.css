@@ -405,3 +405,8 @@ p {
   .works__element:nth-child(8) {
     background: url("../../images/works/bibli.jpg") center no-repeat;
     background-size: cover; }
+
+@media (max-width: 767px) {
+  .works__list {
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr); } }
