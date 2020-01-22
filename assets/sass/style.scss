@@ -6,6 +6,7 @@ $textcolor: #1d1d1d;
 $textcolorlight: #787878;
 $basiccolor: #10c9c3;
 $textcolorwhite: #ffffff;
+$backgroundgrey: #f5f5f5;
 
 // Basic styles
 
@@ -439,6 +440,7 @@ p{
 .process__content {
   margin: auto;
   width: 50%;
+
 }
 
 .process__title {
@@ -458,4 +460,41 @@ p{
   margin-top: 40px;
   margin-bottom: 40px;
 
+}
+
+// services
+
+.services{
+  background-color: $backgroundgrey;
+}
+
+.services__content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 40px;
+
+}
+
+.services__items{
+  max-width: 230px;
+  margin-right: 69px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.services__title{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  @include fontsemibold;
+  font-size: 1rem;
+  color: $textcolor;
+  text-transform: uppercase;
+}
+
+.services__text{
+  color: $textcolorlight;
+  @include fontlight;
+  font-size: 0.875rem;
 }
