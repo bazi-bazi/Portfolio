@@ -498,3 +498,30 @@ p{
   @include fontlight;
   font-size: 0.875rem;
 }
+
+// quotes
+
+.quotes{
+  padding-top: 180px;
+  padding-bottom:  180px;
+  background-color: $basiccolor;
+}
+
+.quotes__content{
+  text-align: center;
+}
+
+.quotes__text{
+  @include fontlight;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.quotes__author{
+  @include fontlight;
+  font-size:0.75rem;
+  color:#fff;
+  text-transform: uppercase;
+}

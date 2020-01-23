@@ -476,3 +476,28 @@ p {
   font-weight: Light;
   font-style: normal;
   font-size: 0.875rem; }
+
+.quotes {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  background-color: #10c9c3; }
+
+.quotes__content {
+  text-align: center; }
+
+.quotes__text {
+  font-family: 'Montserrat Light';
+  font-weight: Light;
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 40px; }
+
+.quotes__author {
+  font-family: 'Montserrat Light';
+  font-weight: Light;
+  font-style: normal;
+  font-size: 0.75rem;
+  color: #fff;
+  text-transform: uppercase; }
