@@ -545,3 +545,25 @@ p{
     margin-right: 0px;
   }
 }
+
+// contact
+
+.contact{
+  background-color: $backgroundgrey;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.contact__title{
+  text-align: center;
+  @include fontsemibold;
+  font-size: 1.875rem;
+  color: $textcolor;
+}
+
+.contact__text{
+  text-align: center;
+  line-height: 1.35rem;
+  color: $textcolorlight;
+  @include fontlight;
+  margin-top: 38px;
+}
