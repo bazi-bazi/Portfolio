@@ -525,3 +525,23 @@ p{
   color:#fff;
   text-transform: uppercase;
 }
+
+// media max 767 and 1292
+
+@media (max-width: 767px){
+  .process iframe{
+    width: 300px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .services__items{
+    margin-right: 0px;
+  }
+}
+@media (max-width: 1292px){
+  .services__items{
+    margin-right: 0px;
+  }
+}
