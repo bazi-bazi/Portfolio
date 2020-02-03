@@ -536,3 +536,33 @@ p {
   font-weight: Light;
   font-style: normal;
   margin-top: 38px; }
+
+.contact__form {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding-top: 40px;
+  width: 673px; }
+
+input[class="name"] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+input[class="email"] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+input[class="title"] {
+  width: 100%; }
