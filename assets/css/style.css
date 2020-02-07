@@ -590,3 +590,5 @@ textarea {
     font-style: normal;
     color: white;
     text-transform: uppercase; }
+    .form__button .form__button__input:hover {
+      background-color: #22ded8; }
