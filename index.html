@@ -246,16 +246,27 @@ forward to start the next one asap.”</h3>
       Let us know what you're looking for in an agency. We'll take a look and see <br />
 if this could be the start of something beautiful.
     </p>
-    <div class="contact__form">
-    <form class="contact__form__content">
-      <input class="name" type="text" id="fname" name="name" placeholder="Your Name" />
-      <input class="email" type="text" id="femail" name="email" placeholder="Your Email" />
-      <input class="title" type="text" id="ftitle" name="title" placeholder="Your Title" />
-      <input class="comment" type="text" id="fcomment" name="comment" placeholder="Your Comment" />
-
-      <input type="submit" value="Submit">
-    </form>
+    <form action="#">
+      <div class="form__input">
+        <label for="form-name">your name</label>
+        <input id="form-name" type="text" name="name" placeholder="Your Name" />
+      </div>
+      <div class="form__input">
+        <label for="form-email">your email</label>
+        <input id="form-email" type="text" name="name" placeholder="Your Email" />
+      </div>
+      <div class="form__input">
+        <label for="form-title">your title</label>
+        <input id="form-title" type="text" name="name" placeholder="Your Title" />
+      </div>
+      <div class="form__input">
+        <label for="form-comment">your comment</label>
+        <textarea id="form-comment" type="text" name="name" placeholder="Your Comment" /></textarea>
+      </div>
+      <div class="form__button">
+      <button class="form__button__input">send message</button>
     </div>
+    </form>
 
     </div>
   </div>

@@ -568,32 +568,59 @@ p{
   margin-top: 38px;
 }
 
-.contact__form{
-  display: block;
+form{
   margin: auto;
   width: 50%;
+  align-items: center;
+  max-width: 675px;
   padding-top: 40px;
-  width: 673px;
+
+  label{
+    display: none;
+  }
 }
 
-input[class="name"]{
-  width: 50%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-input[class="email"]{
-  width: 50%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-input[class="title"]{
+.form__input{
+margin-bottom: 20px;
+  input, textarea {
+  background-color: rgb(255, 255, 255);
   width: 100%;
+  padding: 16px 20px;
+  display:block;
+  border: none;
+  box-shadow: none;
+  resize: none;
+  font-size: 15px;
+  @include fontlight;
+  color: rgb(120, 120, 120);
+  line-height: 1.6;
+  box-sizing: border-box;
+  }
+}
+
+textarea {
+  min-height: 170px;
+
+}
+
+.form__button {
+
+text-align: center;
+//background-color: red;
+
+.form__button__input{
+
+  background-color: $basiccolor;
+  min-width: 180px;
+  border: none;
+  box-shadow: none;
+  padding: 22px 24px;
+  appearance:none;
+  cursor: pointer;
+  font-size: 12px;
+  @include fontsemibold;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+
+}
 }
