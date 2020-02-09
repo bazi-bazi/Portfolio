@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
     <title>Portfolio</title>
   </head>
   <body>
@@ -247,9 +248,9 @@ forward to start the next one asap.”</h3>
 if this could be the start of something beautiful.
     </p>
     <form action="#">
-      <div class="form__input">
+      <div  class="form__input">
         <label for="form-name">your name</label>
-        <input id="form-name" type="text" name="name" placeholder="Your Name" />
+        <input id="name" type="text" name="name" placeholder="Your Name" />
       </div>
       <div class="form__input">
         <label for="form-email">your email</label>
@@ -266,6 +267,11 @@ if this could be the start of something beautiful.
       <div class="form__button">
       <button class="form__button__input">send message</button>
     </div>
+    <div id="test">
+      <p>
+        {{ message }}
+      </p>
+    </div>
     </form>
 
     </div>
@@ -273,7 +279,6 @@ if this could be the start of something beautiful.
 </section>
 
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
+<script src="assets/js/index.js"></script>
   </body>
 </html>
