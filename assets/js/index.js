@@ -1,8 +1,8 @@
 
 
 var test = new Vue({
-    el: '#test',
+    el: '#form-name',
     data: {
-        message: ''
+        name: ''
   }
 });

@@ -248,9 +248,12 @@ forward to start the next one asap.”</h3>
 if this could be the start of something beautiful.
     </p>
     <form action="#">
-      <div  class="form__input">
+      <div  class="form__input" id="form-name">
         <label for="form-name">your name</label>
-        <input id="name" type="text" name="name" placeholder="Your Name" />
+        <input  type="text" name="name" placeholder="Your Name" v-model.lazy="name" />
+        <p>
+          {{ name }}
+        </p>
       </div>
       <div class="form__input">
         <label for="form-email">your email</label>
@@ -267,11 +270,7 @@ if this could be the start of something beautiful.
       <div class="form__button">
       <button class="form__button__input">send message</button>
     </div>
-    <div id="test">
-      <p>
-        {{ message }}
-      </p>
-    </div>
+
     </form>
 
     </div>
