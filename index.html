@@ -255,17 +255,26 @@ if this could be the start of something beautiful.
           {{ name }}
         </p>
       </div>
-      <div class="form__input">
+      <div class="form__input" id="form-email">
         <label for="form-email">your email</label>
-        <input id="form-email" type="text" name="name" placeholder="Your Email" />
+        <input  type="text" name="name" placeholder="Your Email" v-model.lazy="email"/>
+        <p>
+          {{ email }}
+        </p>
       </div>
-      <div class="form__input">
+      <div class="form__input" id="form-title">
         <label for="form-title">your title</label>
-        <input id="form-title" type="text" name="name" placeholder="Your Title" />
+        <input type="text" name="name" placeholder="Your Title" v-model.lazy="title" />
+        <p>
+          {{ title }}
+        </p>
       </div>
-      <div class="form__input">
+      <div class="form__input" id="form-comment">
         <label for="form-comment">your comment</label>
-        <textarea id="form-comment" type="text" name="name" placeholder="Your Comment" /></textarea>
+        <textarea  type="text" name="name" placeholder="Your Comment" v-model.lazy="textarea"/></textarea>
+        <p>
+          {{ textarea }}
+        </p>
       </div>
       <div class="form__button">
       <button class="form__button__input">send message</button>
