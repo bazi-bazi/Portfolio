@@ -257,7 +257,7 @@ if this could be the start of something beautiful.
       </div>
       <div class="form__input" id="form-email">
         <label for="form-email">your email</label>
-        <input  type="text" name="name" placeholder="Your Email" v-model.lazy="email"/>
+        <input  type="text" name="name" placeholder="Your Email" v-model.lazy.trim="email"/>
         <p>
           {{ email }}
         </p>
